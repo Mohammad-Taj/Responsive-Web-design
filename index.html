@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive website design</title>
+
+
+    <!---Font Awesome cdn files-------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   <!---from w3schools.com website---------->
+   <!---Font Awesome cdn ends--------------> 
+  
+   <link href="css/style.css" rel="stylesheet">
+    <!--==shortcut icon== and img to change "fav icon" the mark of the site on the tap -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!--Responsive CSS file-->
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+   
+   <!---Magnific popup css files-------------->
+    <!--- downloadded from https://github.com/dimsemenov/Magnific-Popup----->
+    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!---owl.carousel css files--------for viewing the team work------>
+    <!--- downloadded from https://github.com/OwlCarousel2/OwlCarousel2 ---->
+    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
+    <link href="css/owl.theme.default.min.css" rel="stylesheet" type="text/css">
+
+ 
+    
+    <!-- Latest compiled and minified CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">--> 
+        <!---to make it responsive after customising bootstrab and downloading the files from wedsite-->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    
+
+    <!--Animate css file -->  <!--link==> https://github.com/animate-css/animate.css-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">-->  <!--link==> https://www.digitalocean.com/community/tutorials/css-animate-css-->
+    <!---====For new ver. 4.====-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css" integrity="sha512-kb1CHTNhoLzinkElTgWn246D6pX22xj8jFNKsDmVwIQo+px7n1yjJUZraVuR/ou6Kmgea4vZXZeUDbqKtXkEMg==" crossorigin="anonymous" /> -->
+
+    <link rel="stylesheet" href="WOW-master/css/libs/animate.css" type="text/css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!---Magnific popup js files-------------->
+    <!--- downloadded from https://github.com/dimsemenov/Magnific-Popup----->
+    <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+   
+    <!---owl.carousel Js files--------for viewing the team work------>
+    <!--- downloadded from https://github.com/OwlCarousel2/OwlCarousel2 ---->
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    
+    
+    <!-- Latest compiled JavaScript -->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+    <!---to make it responsive after customising bootstrab and downloading the files from wedsite-->
+    <script src="js/bootstrap.min.js" tye="text/javascript"></script>
+
+
+
+    <script src="WOW-master/dist/wow.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+    <!-----Navigation starts------>
+    <nav class="navbar navbar-inverse navbar-fixed-top" >   <!-- (Navbar) its boostrab class
+                                                (Navbar-inverse) Creates a black navigation bar 
+                                                (navbar-fixed-top) remove the radius edges of the navbar-->
+        <div class="Mohammad">
+            <div class="container" id="Moh">   <!-----Container (same width from left and right): is a boostrab class also we have container-fluid (use the full width of the screen)class-->
+                <div class="navbar-header"> <!--- navbar-header Boostrab class used to but the logo-->
+                    <!-----Responsive Botton---->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">  <!--navbar-toggle is a boostrab class  shows it when the screen is too small-->
+                        <span class="icon-bar"></span>  <!---icon-bar is a boostrab class-->
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+            
+                    <a href="" class="navbar-brand animated bounceInDown"><img src="img/logo.png"></a>  <!--- navbar-brand Boostrab class-->
+                    <!--<a href="" class="navbar-brand animate__animated animate__bounceInDown"><img src="img/logo.png"></a> -->   <!--for animated.css ver.4 and ubove-->
+                </div>
+            
+                <div class="collapse navbar-collapse" id="navi"> <!---all classes existed in boostrab exibt the Id-->
+                    <!-----Navigation menus---->
+                    <ul class="nav  navbar-nav navbar-right animated bounceInDown">
+                        <li><a href="#slider" class="smooth-scroll">Home</a></li>
+                        <li><a href="#services" class="smooth-scroll">Our Services</a></li>
+                        <li><a href="#works" class="smooth-scroll">Works</a></li>
+                        <li><a href="#team" class="smooth-scroll">Team</a></li>
+                        <li><a href="#testimonials" class="smooth-scroll">About us</a></li>
+                        <li><a href="#latest" class="smooth-scroll">Blog</a></li>
+                        <li><a href="#stats" class="smooth-scroll">Stats</a></li>
+                        <li><a href="#contact_area" class="smooth-scroll">Carrier</a></li>
+                        <li><a href="#map" class="location smooth-scroll">Our location</a></li>
+                    </ul>
+                    <!-----Navigation menus End---->
+                </div>
+            
+            </div>
+        </div>
+
+    </nav> 
+    <!-----Navigation Ends------>
+
+    <!---Slider section Starts-------------->
+    <section class="slider text-center" id="slider"> <!----text-center ia a boostrab class-->
+        <div class="slider-overlay"> <!--overlay on the top of slider image--->
+            <div class="slider-content">
+                <div class="icons">
+                    <i class="fab fa-apple"></i>
+                    <i class="fa fa-android"></i>
+                    <i class="fab fa-windows"></i>
+                </div>
+                <br>
+                <div class="text"></div>
+                <div class="cta-div"> <!---call to accent botton-->
+                    <a href="" class="btn1">CONTACT US!</a>
+                    <a href="" class="btn2">LEARN TODAY</a>
+                </div>
+                <br><br>
+                <div class="social-networks">
+                    <a href="" class="fab fa-facebook"></a>
+                    <a href="" class="fab fa-twitter"></a>
+                    <a href="" class="fab fa-windows"></a>
+                    <a href="" class="fab fa-reddit"></a>
+                    <a href="" class="fab fa-linkedin"></a>
+                    <a href="" class="fa fa-cog"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---Slider section Ends-------------->
+
+    <!---Services Markups section Starts-------------->
+    <br><br>
+    <section class="service-area" id="services">
+        <!---------------------------------------------------------
+            rules:
+                Rows must be placed within a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding
+                Use rows to create horizontal groups of columns
+                Content should be placed within columns, and only columns may be immediate children of rows
+                Predefined classes like .row and .col-sm-4 are available for quickly making grid layouts
+                Columns create gutters (gaps between column content) via padding. That padding is offset in rows for the first and last column via negative margin on .rows
+                Grid columns are created by specifying the number of 12 available columns you wish to span. For example, three equal columns would use three .col-sm-4
+                Column widths are in percentage, so they are always fluid and sized relative to their parent element
+        ---------------------------------------------------------->
+        <div class="container"> <!----container is abootstrab class: data booter which make all data respinsive------->
+            <!-----https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp ==
+                 for more information about row amd col------->
+            <div class="row"> <!---row: bootstrab class---------> 
+                <div class="col-xs-12">      <!---col-xs-12: bootstrab class--------->
+                    <!-------------Each col has 12spans 
+                        for 1 column but 12(each 12 span make 1 column) - 
+                        for 3 column but 4 (group 4 spans to make column [12/4 = 3 col] )--------->
+
+                    <div class="section-title text-center wow zoomIn" data-wow-duration="1s" data-wow-delay="1s">    <!---only text-center: bootstrab class--------->
+                <!--<div class="section-title text-center animated zoomIn">-->  <!--there is no need for animated class when adding wow.min.js-->
+                        <h2><b>SERVICES</b></h2> <!-----<b>Bold</b>---------->
+                        <p>You can ask the question regarding the issues we will<br> solve that together for sure</p>
+                    </div>
+                </div>
+            </div><br><br>
+
+            <div class="row wow bounceInUp" data-wow-duration="1.2s" data-wow-delay="1.2s">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <!----------------------------------
+                        md: medium devices use 3 columns (12/4)
+                        sm: small devices use 2 columns  (12/6)
+                        xs: extra small devices use 1 column (12/12)
+                    ----------------------------------->
+
+                    <div class="service-wrap text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-leaf"></i>
+                        </div>
+                        <h3> Development</h3>
+                        <p>
+                            Fill this area to satisfy your need.Fill this area to satisfy your need.
+                            Fill this area to satisfy your need.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="service-wrap text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-laptop"></i>
+                        </div>
+                        <h3> Support</h3>
+                        <p>
+                            Fill this area to satisfy your need.Fill this area to satisfy your need.
+                            Fill this area to satisfy your need.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="service-wrap text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <h3> Marketting</h3>
+                        <p>
+                            Fill this area to satisfy your need.Fill this area to satisfy your need.
+                            Fill this area to satisfy your need.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="service-wrap text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-cogs"></i>
+                        </div>
+                        <h3> Insurance</h3>
+                        <p>
+                            Fill this area to satisfy your need.Fill this area to satisfy your need.
+                            Fill this area to satisfy your need.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="service-wrap text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-diamond"></i>
+                        </div>
+                        <h3> Design</h3>
+                        <p>
+                            Fill this area to satisfy your need.Fill this area to satisfy your need.
+                            Fill this area to satisfy your need.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="service-wrap text-center">
+                        <div class="service-icon">
+                            <i class="fa fa-cog"></i>
+                        </div>
+                        <h3> Web Design</h3>
+                        <p>
+                            Fill this area to satisfy your need.Fill this area to satisfy your need.
+                            Fill this area to satisfy your need.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    
+    <!---Services Markups section Ends---------------->
+
+    <!---Works Markips Starts-------------->
+    <section class="work wow fadeIn" id="works" data-wow-duration="1.4s" data-wow-delay="1.4s"> <br><br><br><br><br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-3"> 
+                    <div class="img-wrapper">
+                        <a href="img/1.png" title="image discription will be here">
+                            <img src="img/1.png" class="img-responsive"> 
+                            <!--(img-responsive) is a class from boostrab-->
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <div class="img-wrapper">
+                        <a href="img/2.png" title="image discription will be here">
+                            <img src="img/2.png" class="img-responsive"> 
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <div class="img-wrapper">
+                        <a href="img/3.png" title="image discription will be here">
+                            <img src="img/3.png" class="img-responsive"> 
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <div class="img-wrapper">
+                        <a href="img/4.png" title="image discription will be here">
+                            <img src="img/4.png" class="img-responsive"> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-3 col-xs-3"> 
+                    <div class="img-wrapper">
+                        <a href="img/5.png" title="image discription will be here">
+                            <img src="img/5.png" class="img-responsive"> 
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <div class="img-wrapper">
+                        <a href="img/6.png" title="image discription will be here">
+                            <img src="img/6.png" class="img-responsive"> 
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <div class="img-wrapper">
+                        <a href="img/2.png" title="image discription will be here">
+                            <img src="img/2.png" class="img-responsive"> 
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <div class="img-wrapper">
+                        <a href="img/1.png" title="image discription will be here">
+                            <img src="img/1.png" class="img-responsive"> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </section>
+
+    <!---Works Markups Ends-------------->
+
+    
+    <!---Team Markups Starts--------------> 
+    <br><br><br>
+    <section class="teams" id="team">
+        <div class="container text-center wow zoomIn" data-wow-duration="1s" data-wow-delay="1s">
+            <h2><b>MEMBERS</b></h2>
+            <p>
+                you can ask the question regarding the issues we will<br>
+                solve that together for sure
+                
+            </p>
+        </div><br>
+        
+        <div class="container wow bounceInLeft" data-wow-duration="1.2s" data-wow-delay="1.2s">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme" id="team-members">
+                        <div class="team-member">
+                            <img src="img/team-1.jpg" class="img-responsive"> <!--img-responsive: boostrab class---->
+                            <div class="team-member-info text-center">
+                                <h4 class="team-member-name">Harmoine</h4>
+                                <h4 class="team-member-designation">ceo</h4>
+                                <ul class="social-list">
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="team-member">
+                            <img src="img/team-2.jpg" class="img-responsive"> <!--img-responsive: boostrab class---->
+                            <div class="team-member-info text-center">
+                                <h4 class="team-member-name">Nuke Mary</h4>
+                                <h4 class="team-member-designation">co-founder</h4>
+                                <ul class="social-list">
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="team-member">
+                            <img src="img/team-3.jpg" class="img-responsive"> <!--img-responsive: boostrab class---->
+                            <div class="team-member-info text-center">
+                                <h4 class="team-member-name">Jhonson Rodha</h4>
+                                <h4 class="team-member-designation">Sr. Developer</h4>
+                                <ul class="social-list">
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="team-member">
+                            <img src="img/team-4.jpg" class="img-responsive"> <!--img-responsive: boostrab class---->
+                            <div class="team-member-info text-center">
+                                <h4 class="team-member-name">Uhana Ruth</h4>
+                                <h4 class="team-member-designation">Sr. Designer</h4>
+                                <ul class="social-list">
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="team-member">
+                            <img src="img/team-5.jpg" class="img-responsive"> <!--img-responsive: boostrab class---->
+                            <div class="team-member-info text-center">
+                                <h4 class="team-member-name">Nera Seth</h4>
+                                <h4 class="team-member-designation">sales man</h4>
+                                <ul class="social-list">
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="" class="social-icon icon-gray"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!---Team Markups Ends---------------->
+
+    <!---Testimonials Markups Starts---------------->
+    <br><br>
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="row wow fadeInDownBig">
+                <div class="col-md-12 text-center">
+                    <br><br>
+                    <h2><b>REVIEWS</b></h2>
+                    <div class="sub-heading">  <!----defined just to put underline under REVIEWS-->
+                        <div class="border-bottom"></div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+
+            <div class="row wow fadeInDownBig">
+                <div class="col-sm-12">
+
+                    <!--==========================Carousel=========================
+                        refer to the following links:
+                        https://www.w3schools.com/bootstrap/bootstrap_carousel.asp
+                        https://getbootstrap.com/docs/4.5/components/carousel/
+                        ==================================================--->
+
+                    <div id="carousel-testimonials" class="carousel slide" data-ride="carousel"><br>
+                        
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">  <!--Adds little dots/indicators at the bottom of each slide------>
+                            <!----
+                                data-target should has the given id which is in our work: "carousel-testimonials"
+                                ----->
+
+                            
+                            <li data-target="#carousel-testimonials" data-slide-to="0" class="active"></li>   
+                            <li data-target="#carousel-testimonials" data-slide-to="1"></li>
+                            <li data-target="#carousel-testimonials" data-slide-to="2"></li>
+                        </ol>
+                            
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner "> <!--===carousel-inner=== Bosstrab class which is a Container for slide items--->
+                            <div class="item active text-center">
+                                <!---
+                                    .item :Class added to each carousel item. May be text or images
+                                    .active only for the first item
+                                    .text-center to be in the center
+                                -->
+                                <img src="img/client-1.jpg" class="center-block">   <!---=center-block is aboostrab class-->
+                                <h2>Daniel Grover</h2>
+                                <h4>Sr Engineer</h4>
+                                <p>
+                                    who is such a man as does not want to get succees life is not meant<br>
+                                    such a man as does not want to get success life
+                                </p>
+                            </div>
+
+                            <div class="item text-center"> <!---There is no active class-->
+                                <img src="img/client-2.jpg" class="center-block">   <!---=center-block is aboostrab class-->
+                                <h2>Daniel Grover</h2>
+                                <h4>Sr Engineer</h4>
+                                <p>
+                                    who is such a man as does not want to get succees life is not meant<br>
+                                    such a man as does not want to get success life
+                                </p>
+                            </div>
+
+                            <div class="item text-center">   <!---There is no active class-->
+                                <img src="img/client-3.jpg" class="center-block">   <!---=center-block is aboostrab class-->
+                                <h2>Daniel Grover</h2>
+                                <h4>Sr Engineer</h4>
+                                <p>
+                                    who is such a man as does not want to get succees life is not meant<br>
+                                    such a man as does not want to get success life
+                                </p>
+                            </div>
+
+                        </div>
+
+                                
+
+                    </div>
+
+
+                        
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!---Testimonials Markups Ends---------------->
+
+
+    <!---FAQ Markups Stars---------------->
+    <!--===================================================================
+        to make a Collaspse you can find allready done code on getboostrap.com
+        link===>
+        https://getbootstrap.com/docs/4.5/components/collapse/
+    =======================================================================-->
+    <br><br><br>
+    <section class="faq">
+        <div class="conrtainer">
+            <div class="row">
+                <div class="col-md-12 text-center wow zoomIn" data-wow-duration=".4s" data-wow-delay=".4s">
+                    <h2><b>GENERAL FAQs</b></h2>
+                    <div class="sub-heading">
+                        <p>
+                            you can ask the question regarding the issue we will<br>
+                            solve that together for sure
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div><br><br><br>
+        
+        <div class="container wow bounceInLeft" data-wow-duration="0.6s" data-wow-delay="0.6s">
+            <div class="row">
+                <div class="col-md-7"> <!--we need the colom to be wide so we took 7 spans from the 12 spans for our column-->
+                    <div class="panel-group" id="accordian"> 
+                        <!--id is noot existing just we need it for the ancer link to make it working-->
+                        <!--== panel-group: is aboostrap class
+                            1) Used to group many panels together.
+                            2) This removes the bottom margin below each panel
+                        ========================================================-->
+                        <div class="panel panel-default">
+                            <!--======================================================
+                                panel: boostrab class
+                                    ==> Creates a bordered box with some padding around its content
+                                To color the panel, use contextual classes (.panel-default, .panel-primary, 
+                                .panel-success, .panel-info, .panel-warning, or .panel-danger)
+                            link==>
+                                https://www.w3schools.com/bootstrap/bootstrap_panels.asp
+                            ==========================================================-->
+                            <div class="panel-heading" id="headingOne">
+                                <!--=============
+                                    panel-heading: boostrab class
+                                    ==> Creates a panel header (light background color)
+                                =================-->
+                                <h4 class="panel-title"> <!--=Used inside a .panel-heading to adjust the styling of the text (removes margins and adds a font-size of 16px)=-->
+                                    <a href="#collapseOne" data-toggle="collapse" data-parent="#accordian">Have you any questions ?</a>
+                                    <!---==
+                                        data-toggle="collapse"
+                                        you need first to add the Jquery collapse files
+
+                                        data-parent="#accordian"
+                                        whic defined before in line 521
+                                        =-->
+                                </h4>
+                            </div>
+
+                            <div id="collapseOne" class="panel-collapse collapse in" aria-labelledby="headingOne">
+                                <!---====
+                                    panel-collapse: boostrab class
+                                        ==>
+                                        Collapsible panel (toggle between hiding and showing panel(s))
+                                    collapse in: boostrab class
+                                        ==>  open this as a default
+                                        Show the collapsible content by default
+                                    ====-->
+                                
+                                <div class="panel-body"> <!--panel-bodey ia a boostrab class: which is a Container for content inside the panel-->
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat.
+                                    </p>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" id="headingTwo">
+                                <h4 class="panel-title"> 
+                                    <a href="#collapseTwo" class="collapsed" data-toggle="collapse" data-parent="#accordian">Are you getting it exactly ?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseTwo" class="panel-collapse collapse" aria-labelledby="headingTwo">
+                                <!--=====
+                                  collapse: boostrab class ==>Indicates collapsible content - which can be hidden or shown on demand
+                                ======-->
+                                <div class="panel-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat.
+                                    </p>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" id="heading3">
+                                <h4 class="panel-title"> 
+                                    <a href="#collapse3" class="collapsed" data-toggle="collapse" data-parent="#accordian">Is it clearly explainer ?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapse3" class="panel-collapse collapse" aria-labelledby="heading3">
+                                <!--=====
+                                  collapse: boostrab class ==>Indicates collapsible content - which can be hidden or shown on demand
+                                ======-->
+                                <div class="panel-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat.
+                                    </p>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" id="heading4">
+                                <h4 class="panel-title"> 
+                                    <a href="#collapse4" class="collapsed" data-toggle="collapse" data-parent="#accordian">Course is desrving anything ?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapse4" class="panel-collapse collapse" aria-labelledby="heading4">
+                                <!--=====
+                                  collapse: boostrab class ==>Indicates collapsible content - which can be hidden or shown on demand
+                                ======-->
+                                <div class="panel-body">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat.
+                                    </p>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+
+                <div class="freeimage wow bounceInRight" data-wow-duration="0.8s" data-wow-delay="0.8s">
+                    <div class="col-md-2 col-md-offset-1"> <!--col-md-offset-1: move the img 1 span to the right-->
+                        <img src="img/3-front.png">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!---FAQ Markups Ends---------------->
+
+    <!---Video Markups Starts---------------->
+    <section class="video-area wow bounceInUp" id="video">
+        <!---===============================
+          we use (#video)  to link this section with navigation menues
+        ====================================-->
+        <div id="color_overlay" class="color-overlay">
+            <div class="video-container">
+                <div id="player"></div>
+                <div class="video-mask"></div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text center">
+                        <div class="video-mask">
+                            <a href="https://youtu.be/oLnd4G7dsHg" class="play"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!---Video Markups Ends---------------->
+
+    <!---Blog Markups Starts---------------->
+    <section class="latest-news-area" id="latest">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="section-title text-center wow zoomIn" data-wow-duration=".2s" data-wow-delay=".5s">
+                        <h2><b>RECENT BLOGS</b></h2>
+                        <div class="sub-heading">
+                            you can ask the question regarding the issue we will<br>
+                            solve that together for sure
+                        </div>
+                    </div>
+                </div>
+            </div><br><br><br>
+            <div class="row">
+                <div class="news-active">
+                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay="0.4s">
+                        <div class="latest-news-wrap">
+                            <div class="news-img">
+                                <img src="img/1.jpg" class="img-responsive">
+                                <div class="deat">
+                                    <span>31</span>
+                                    <span>Dec</span>
+                                </div>
+                            </div>
+                            <div class="news-content">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-linkedin"></i>
+                                <i class="fa fa-youtube"></i>
+                                <i class="fa fa-whatsapp"></i>
+                                <p>
+                                    who is suach a man as does not want to get success life is not meant for work 
+                                    life is gone health is gone wealth is gone if charcter is gone then get it
+                                    everything is gone life is. very precious you know if know then great. life is not
+                                    meant for work okey
+                                </p><br>
+                                <a href="">Read more..</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 wow slideInDown" data-wow-duration="0.8s" data-wow-delay="0.8s">
+                        <div class="latest-news-wrap">
+                            <div class="news-img">
+                                <img src="img/2.jpg" class="img-responsive">
+                                <div class="deat">
+                                    <span>31</span>
+                                    <span>Dec</span>
+                                </div>
+                            </div>
+                            <div class="news-content">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-linkedin"></i>
+                                <i class="fa fa-youtube"></i>
+                                <i class="fa fa-whatsapp"></i>
+                                <p>
+                                    who is suach a man as does not want to get success life is not meant for work 
+                                    life is gone health is gone wealth is gone if charcter is gone then get it
+                                    everything is gone life is. very precious you know if know then great. life is not
+                                    meant for work okey
+                                </p><br>
+                                <a href="">Read more..</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInRight" data-wow-duration="0.6s" data-wow-delay="0.6s">
+                        <div class="latest-news-wrap">
+                            <div class="news-img">
+                                <img src="img/3.jpg" class="img-responsive">
+                                <div class="deat">
+                                    <span>31</span>
+                                    <span>Dec</span>
+                                </div>
+                            </div>
+                            <div class="news-content">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-linkedin"></i>
+                                <i class="fa fa-youtube"></i>
+                                <i class="fa fa-whatsapp"></i>
+                                <p>
+                                    who is suach a man as does not want to get success life is not meant for work 
+                                    life is gone health is gone wealth is gone if charcter is gone then get it
+                                    everything is gone life is. very precious you know if know then great. life is not
+                                    meant for work okey
+                                </p><br>
+                                <a href="">Read more..</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!---Blog Markups Ends---------------->
+
+
+    <!---Counter States Markups Starts---------------->
+    <!----====
+        using Boostrab classes
+        jquery plug in ==> for animating
+        =====-->
+    <br><br>
+    <section class="stat" id="stats">
+        <div class="content-box"> <!--contains all the elemins-->
+            <br><br>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <div class="state-items wow fadeInLeft" data-wow-duration=".2s" data-wow-delay=".2s">
+                            <i class="fa fa-tv"></i>
+                            <h2><span class="counter text-center ">3200</span> <span>+</span></h2>  <!--Span work as aselector-->
+                            <p>VIEWS</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="state-items wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay="0.4s">
+                            <i class="fa fa-android"></i>
+                            <h2><span class="counter text-center">3987</span> <span>+</span></h2>  <!--Span work as aselector-->
+                            <p> ANDROID USER</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="state-items wow fadeInLeft" data-wow-duration=".6s" data-wow-delay=".6s">
+                            <i class="fa fa-apple"></i>
+                            <h2><span class="counter text-center">7289</span> <span>+</span></h2>  <!--Span work as aselector-->
+                            <p>INTERNATIONALLY</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="state-items wow fadeInLeft" data-wow-duration=".8s" data-wow-delay=".8s">
+                            <i class="fa fa-windows"></i>
+                            <h2><span class="counter text-center">3934</span> <span>+</span></h2>  <!--Span work as aselector-->
+                            <p>WINDOW SUPPORTS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    
+
+
+    <!---Counter States Markups Ends---------------->
+
+
+    <!---Contacts Form Markups Starts---------------->
+
+    <section class="contact-area" id="contact_area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">  <!--(col-md-offset-*) Move columns to the right. These classes increase the left margin of a column by * columns-->
+                    <div class="section-heading wow fadeInUp" data-wow-duration=".2s" data-wow-delay=".2s">  <!--to put gapping between elements-->
+                        <h2 class="section-title"><b>LEAVE A MESSAGE</b></h2>
+                        <div class="border-bottom"></div>
+                    </div>
+                </div>
+            </div><br><br><br><br>
+
+            <div >
+                <div class="row wow fadeInUp">
+                    <div class="col-md-8 col-md-offset-2">
+                        <form id="contactform" class="contact-form">
+                            <div class="row">
+                                <div class="col-md-5"><input id="name" type="text" class="form-control" name="name"
+                                    placeholder="Name" required></div>
+                
+                                <div class="col-md-5 col-md-offset-2"><input id="email" type="email" class="form-control" name="Email"
+                                    placeholder="Email" required></div>
+                                    <!-------------------------------
+                                        form-control= boostrab class
+                                        ==> 	Used on input, textarea, and select elements to span 
+                                                the entire width of the page and make them responsive
+                                    ---------------------------------->
+                                
+                                <div class="col-md-12 "><br>  
+                                    <input id="subject" type="text" class="form-control" name="name"
+                                        placeholder="Subject" required>
+                                </div>
+                
+                                <div class="col-md-12"><br>
+                                    <textarea id="message" rows="4" class="form-control" placeholder="Message" required></textarea>
+                                </div>
+                
+                                <div class="col-md-12 text-center"><br><br>
+                                    <button class="btn" type="submit">Submit Message</button>
+                                    <!----------------
+                                        btn: bootstrab class
+                                        ==> Creates a basic button (gray background and rounded corners)
+                                    -->
+                                </div>
+                            </div>
+                        </form>   
+                    </div>
+                
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="contact-infos">
+                    <div class="col-md-4 text-center">
+                        <div class="contect-item wow fadeInLeft" data-wow-duration=".3s" data-wow-delay=".3s">
+                            <span class="contact-icon"><i class="fa fa-map-marker"></i></span>
+                            <p class="contact-detail">
+                                68 Dohava strees, Lorem isput Spusts<br>
+                                NewYork, United State
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <div class="contect-item wow fadeInLeft" data-wow-duration=".6s" data-wow-delay=".6s">
+                            <span class="contact-icon"><i class="fa fa-envelope"></i></span>
+                            <p class="contact-detail">
+                                info@geo.com<br>
+                                support@geo.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 text-center">
+                        <div class="contect-item wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".9s">
+                            <span class="contact-icon"><i class="fa fa-phone"></i></span>
+                            <p class="contact-detail">
+                                +123-456-78900 - Central Office<br>
+                                +123-4566-7890 - Fax
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <!---Contacts Form Markups Ends---------------->
+
+    <!---maps Markups Starts---------------->
+
+
+    <section class="maps" id="map">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1700.5004027377108!2d34.443938988125375!3d31.524137825955876!
+        2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14fd7f1796eeeae9%3A0xe276215cf67a84a1!2sShifa%20Hospital.!5e0!3m2!1sen!2s!
+        4v1599217063017!5m2!1sen!2s" 
+        width="100%" height="550" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        
+    </section>
+
+    <!---maps Markups Ends---------------->
+
+    <!---Footer Markups Starts---------------->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <div class="social-icon">
+                        <a href=""><i class="fa fa-facebook wow fadeInLeft" data-wow-duration=".3s" data-wow-delay=".3s"></i></a>
+                        <a href=""><i class="fa fa-twitter wow fadeInLeft" data-wow-duration=".6s" data-wow-delay=".6s"></i></a>
+                        <a href=""><i class="fa fa-google-plus wow fadeInLeft" data-wow-duration=".9s" data-wow-delay=".9s"></i></a>
+                        <a href=""><i class="fa fa-pinterest wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="1.2s"></i></a>
+                        <a href=""><i class="fa fa-rss wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s"></i></a>
+                        <a href=""><i class="fa fa-linkedin wow fadeInLeft" data-wow-duration="1.8s" data-wow-delay="1.8s"></i></a>
+                        <a href=""><i class="fa fa-vimeo-square wow fadeInLeft" data-wow-duration="2.1s" data-wow-delay="2.1s"></i></a>
+                        <a href=""><i class="fa fa-youtube-square wow fadeInLeft" data-wow-duration="2.3s" data-wow-delay="2.3s"></i></a>
+                        <a href=""><i class="fa fa-dribbble wow fadeInLeft" data-wow-duration="2.6s" data-wow-delay="2.6s"></i></a>
+                    </div><br>
+                    <div class="copyright ">
+                        <p class="footerlogo">
+                            &copy; <img src="img/logo.png">
+                        </p>
+                        <div class="bordernow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!---Footer Markups Ends---------------->
+
+    <script src="js/jquery.ripples-min.js" type="text/javascript"></script>  <!--------from https://github.com/sirxemic/jquery.ripples------------>
+    <script src="js/typed.min.js" type="text/javascript"></script>  <!---------from https://github.com/mattboldt/typed.js/-----FOR COUNTER STATUS------->
+    <script src="js/jquery.waypoints.min.js" type="text/javascript"></script> <!--from http://imakewebthings.com/waypoints/---FOR COUNTER STATUS--->
+    <script src="js/jquery.counterup.min.js" type="text/javascript"></script> <!--https://github.com/bfintal/Counter-Up-->
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/smoothscroll.js" type="text/javascript"></script>
+    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+    <!--<script src="js/wow.min.js" type="text/javascript"></script> --> <!--https://github.com/matthieua/WOW-->
+
+</body>
+</html>

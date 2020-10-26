@@ -1,0 +1,23 @@
+@media screen and (max-width: 451px){
+
+    .slider .text{
+        display:none;
+    }
+
+    .slider .typed-cursor{
+        display: none;
+    }
+
+    .slider a.btn1, a.btn2{
+        display:block;
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 245px){
+
+    .service-wrap p{
+        font-size: 12px;
+    }
+
+}
